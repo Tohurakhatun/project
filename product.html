@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce project">
+    <title>ECOMMERCE-PROJECT</title>
+    <link rel="stylesheet" href="index.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- navber starts here -->
+    <i class="fa-solid fa-bars fa-2x flex-space-around" id="menu-icon"></i>
+
+    <nav id="menu" class="hidden">
+        <ul class="nav__upper flex-space-around">
+            <li class="nav__list"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="nav__list"><a href="register.html" class="nav__link">Register</a></li>
+            <li class="nav__list"><a href="login.html" class="nav__link">Login</a></li>
+            <li class="nav__list"><a href="/index.html" class="nav__link">Logout</a></li>
+            <li class="nav__list"><a href="contact.html" class="nav__link">Contact</a></li>
+            <li class="nav__list"><a href="profile.html" class="nav__link"><img src="./image/profile.img.jpg"
+                        alt="profile icon" class="profile-icon"></a></li>
+
+        </ul>
+
+        <ul class="nav__lower flex-space-around">
+            <li class="nav__list"><a href="/index.html" class="nav__brand nav__link">Nasrin Express</a></li>
+            <li class="nav__list"><a href="/cart.html" class="nav__link"><span><i
+                            class="fa-solid fa-cart-shopping"></i></span>Cart 2 products - $124.50</a></li>
+
+
+        </ul>
+    </nav>
+
+
+    <!-- navber ends here -->
+
+    <!-- main starts here  -->
+
+    <main class="flex-center">
+        <div class="main-contact">
+            <section class="product-details flex-center">
+                <div class="product__details-left flex-center">
+                    <img src="./image/watch.png" alt="product1">
+                </div>
+
+                <div class="product__details-right">
+                    <h3 class="product__name">Sony V-4 Headphone</h3>
+
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+
+                    <p class="product__description">
+                        <strong>Description: </strong>
+                        Lorem ipsum dolor sit amet. ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, nisi! ipsum dolor sit amet
+                        consectetur adipisicing elit. Quo perferendis repellat consequatur
+                        labore quos? Itaque veniam cumque voluptas commodi, quos nobis. Esse debitis placeat explicabo
+                        laudantium fuga harum eligendi fugiat?
+                    </p>
+
+                    <p class="product__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis repellat consequatur
+                        labore quos? Itaque veniam cumque voluptas commodi, quos nobis. Esse debitis placeat explicabo
+                        laudantium fuga harum eligendi fugiat?
+                    </p>
+
+                    <h4 class="product__category">Category: Watch</h4>
+                    <h4 class="product__price">Price: $225.99</h4>
+                    <p class="product__rating">Rating: 4.5/5</p>
+                    <button class="btn product__button">Add To Cart</button>
+                    <button class="btn product__button">Back to Shopping</button>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- main ends here  -->
+
+    <!-- footer starts here -->
+
+    <footer class="footer flex-space-around">
+
+        <div class="flex-space-around">
+
+            <label for="subscribe">Subscribe to Newsletter:</label>
+
+            <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+
+        <div>
+            <p>&copy; Copyright 2023 Nasrin Express. all rights rserved</p>
+        </div>
+    </footer>
+    <!-- footer starts here -->
+
+
+
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
